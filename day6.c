@@ -44,8 +44,8 @@ int main(int argc, char const *argv[])
     //     printf("%d\n", i);
     // }
 
-    int age;  // declartion
-    age = 89; // asigning the value / initilize value
+    // int age;  // declartion
+    // age = 89; // asigning the value / initilize value
 
     int k = 56; // declaration with initilization
 
@@ -55,6 +55,24 @@ int main(int argc, char const *argv[])
     //     printf("%d\n", a);
     //     a++;
     // }
+
+    int age = 13;
+    if (age > 22)
+    {
+        printf("The age is greater than 22 %d");
+    }
+    else if (age > 14)
+    {
+        printf("The age is greater than 12 %d");
+    }
+    else if (age > 10)
+    {
+        printf("The age is greater than 10 %d");
+    }
+    else if (age > 5)
+    {
+        printf("The age is greater than 5 %d");
+    }
 
     return 0;
 }
