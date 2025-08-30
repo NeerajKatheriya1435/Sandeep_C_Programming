@@ -23,12 +23,12 @@ int main(int argc, char const *argv[])
     // 1!=1
     // int fact = factoril(1);
     // printf("The factorial is: %d", fact);
-    int n = 4;
-    int fact = 1;
-    for (int i = 1; i <= n; i++)
-    {
-        fact = fact * i;
-    }
-    printf("The factorial is: %d", fact);
+    // int n = 4;
+    // int fact = 1;
+    // for (int i = 1; i <= n; i++)
+    // {
+    //     fact = fact * i;
+    // }
+    // printf("The factorial is: %d", fact);
     return 0;
 }
