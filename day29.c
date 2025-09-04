@@ -23,23 +23,24 @@ int main(int argc, char const **argv)
     //     printf("The value at arrgv[%d] is : %s\n", i, argv[i]);
     // }
 
-    // char opration[20] = "sum";
-    // int num1 = atoi(argv[2]);
-    // int num2 = atoi(argv[3]);
+    char opration[4] = "sum";
+    char opt[4] = argv[1];
+    int num1 = atoi(argv[2]);
+    int num2 = atoi(argv[3]);
     // int sum = num1 * num2;
-    // printf("The sum is: %d", sum);
+    printf("The sum is: %s", opration);
 
-    // if (strcmp(argv[1], opration))
+    // if ()
     // {
     //     printf("The sum is: %d", sum);
     // }
 
     // int addThree = sum(2, 4, 6);
 
-    int (*funcPt)(int, int, int);
+    // int (*funcPt)(int, int, int);
 
-    funcPt = &sum;
-    functionPtr(funcPt);
+    // funcPt = &sum;
+    // functionPtr(funcPt);
 
     // printf("The value is: %d", funcPt(5, 8, 3));
 

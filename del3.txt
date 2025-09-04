@@ -1,0 +1,65 @@
+What is Python? Features & Applications
+Installing Python & IDEs (IDLE, PyCharm, VS Code)
+First Python Program
+Comments (Single-line, Multi-line, Docstrings)
+Input & Output (print(), input())
+Variables & Constants
+Keywords & Identifiers
+Data Types (int, float, complex, string, boolean, NoneType)
+Type Conversion (implicit, explicit - int(), float(), str())
+Arithmetic Operators
+Comparison Operators
+Logical Operators
+Assignment Operators
+Bitwise Operators
+Identity Operators (is, is not)
+Membership Operators (in, not in)
+if, if-else, if-elif-else
+match-case (Python 3.10+)
+for loop, while loop
+Nested loops
+break, continue, pass
+Strings (slicing, methods, formatting, f-strings)
+Lists (creation, indexing, slicing, methods, list comprehension)
+Tuples (immutability, packing & unpacking)
+Sets (unique elements, operations like union, intersection)
+Dictionaries (key-value pairs, methods, dictionary comprehension)
+Defining & Calling Functions
+Arguments (positional, keyword, default, variable-length *args, **kwargs)
+Return statement
+Scope of variables (local, global, global, nonlocal)
+Lambda functions
+Recursion in Python
+Map, Filter, Reduce
+Decorators in Python
+Importing Modules (import, from...import, as)
+Built-in Modules (math, random, datetime, os, sys)
+Creating Custom Modules
+Virtual Environment & Package Management (pip)
+Errors in Python (syntax vs runtime)
+try, except
+Multiple except blocks
+else & finally
+Raising Exceptions (raise)
+Custom Exceptions
+Opening & Closing files (open, close)
+Reading files (read, readline, readlines)
+Writing files (write, writelines)
+File modes (r, w, a, rb, wb)
+With statement (with open() as f)
+File methods (seek, tell)
+Classes & Objects
+Constructor (__init__)
+Instance & Class variables
+Methods (instance, class, static)
+Inheritance (single, multiple, multilevel, hybrid)
+Method Overriding
+Encapsulation (public, protected, private)
+Polymorphism (Duck typing, operator overloading)
+Abstract Classes & Interfaces (abc module)
+Iterators & Generators (iter(), next(), yield)
+Comprehensions (list, dict, set, generator)
+Regular Expressions (re module)
+math, random, time, os, sys, shutil
+Multithreading & Multiprocessing
+Async Programming (asyncio)
