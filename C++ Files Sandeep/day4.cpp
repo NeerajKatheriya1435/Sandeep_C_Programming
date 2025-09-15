@@ -50,6 +50,7 @@ int main(int argc, char const *argv[])
     // 14-6
     // 8
     // 5*5/6+6+5-56+4*5-5/8
+
     cout << result;
 
     return 0;
