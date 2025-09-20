@@ -71,6 +71,7 @@ int main()
     // unsigned long val1 = 78;
     typedef unsigned long ul;
     typedef struct Student shivam;
+    // shivam s1, hu, jk;
 
     ul val1 = 67;
     cout << val1;
