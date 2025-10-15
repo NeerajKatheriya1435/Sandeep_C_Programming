@@ -1,7 +1,9 @@
 {
     "files.associations": {
-        "ostream": "cpp",
-        "random": "cpp",
-        "iostream": "cpp"
-    }
+        "iostream": "cpp",
+        "ostream": "cpp"
+    },
+    "editor.stickyScroll.enabled": false,
+    "editor.stickyScroll.scrollWithEditor": false,
+    "workbench.tree.enableStickyScroll": true
 }
