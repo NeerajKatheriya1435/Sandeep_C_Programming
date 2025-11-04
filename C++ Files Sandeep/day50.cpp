@@ -21,7 +21,6 @@ public:
 
 int main(int argc, char const *argv[])
 {
-
     Student s1(101, 14);
     s1.displayData();
     return 0;
