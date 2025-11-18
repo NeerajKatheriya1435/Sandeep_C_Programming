@@ -81,6 +81,7 @@ int main()
     // cout << a.capacity << endl;
     // deleteAt(b1, 2);
     // deleteAt(b1, 0);
+
     dispalay(b1);
     int result = linearSearch(b1, 34);
     cout << result << endl;
