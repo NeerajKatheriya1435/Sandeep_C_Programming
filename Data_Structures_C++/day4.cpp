@@ -47,7 +47,8 @@ void dispalay(Array &arr)
 {
     for (int i = 0; i < (arr.size); i++)
     {
-        cout << (*(arr.arr + i)) << endl;
+        // cout << (*(arr.arr + i)) << endl;
+        cout << (arr.arr[i]) << endl;
     }
 }
 
@@ -61,6 +62,7 @@ int linearSearch(Array a, int key)
             return i;
         }
     }
+    cout << "Elment not Found" << endl;
     return -1;
 }
 
@@ -71,19 +73,29 @@ int main()
     b1 = createArray(10);
     // cout << b1.capacity;
 
-    int element = 90;
-    insertElement(b1, element);
-    insertElement(b1, 56);
-    insertElement(b1, 86);
-    insertElement(b1, 34);
+    // int element = 90;
+    // insertElement(b1, element);
+    // insertElement(b1, 56);
+    // insertElement(b1, 86);
+    // insertElement(b1, 34);
 
     // a.capacity = 90;
     // cout << a.capacity << endl;
     // deleteAt(b1, 2);
     // deleteAt(b1, 0);
 
+    // dispalay(b1);
+    // int result = linearSearch(b1, 34);
+    // cout << result << endl;
+
+    insertElement(b1, 45);
+    insertElement(b1, 56);
+    insertElement(b1, 23);
+    insertElement(b1, 12);
+    insertElement(b1, 90);
+
+    deleteAt(b1, 1);
+    cout << linearSearch(b1, 112) << endl;
     dispalay(b1);
-    int result = linearSearch(b1, 34);
-    cout << result << endl;
     return 0;
 }
