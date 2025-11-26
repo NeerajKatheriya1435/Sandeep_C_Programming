@@ -111,16 +111,16 @@ public:
 int main()
 {
 
-    // LinkedList l1;
-    // l1.insertVal(56);
-    // l1.insertVal(34);
-    // l1.insertVal(12);
-    // l1.insertVal(83);
-    // l1.insertAtIndex(2, 88);
-    // l1.insertAtIndex(3, 45);
-    // l1.deleteAtEnd();
-    // l1.deleteAtPosition(2);
-    // l1.display();
+    LinkedList l1;
+    l1.insertVal(56);
+    l1.insertVal(34);
+    l1.insertVal(12);
+    l1.insertVal(83);
+    l1.insertAtIndex(2, 88);
+    l1.insertAtIndex(3, 45);
+    l1.deleteAtEnd();
+    l1.deleteAtPosition(2);
+    l1.display();
 
     return 0;
 }
