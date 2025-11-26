@@ -40,7 +40,6 @@ class Stack{
         }
         
     }
-
     bool isEmpty(){
         if(top==0){
             return true;
