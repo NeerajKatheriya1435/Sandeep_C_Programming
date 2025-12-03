@@ -69,7 +69,7 @@ public:
 int main()
 {
 
-    Queue *q1 = new Queue(5);
+    // Queue *q1 = new Queue(5);
     // q1->enque(45);
     // q1->enque(23);
     // q1->enque(99);
@@ -79,7 +79,7 @@ int main()
     // q1->deque();
     // q1->display();
     // cout << q1->isEmpty();
-    cout << q1->size1();
+    // cout << q1->size1();
 
     return 0;
 }
